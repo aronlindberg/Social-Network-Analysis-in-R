@@ -2,7 +2,7 @@
 
 The purpose of this repository is to learn how to run SNA in R during the summer of 2012.
 
-# Characteristics of the Network Data at GitHub #
+## Characteristics of the Network Data at GitHub ##
 
 The network data consists of the following edges:
 
@@ -19,7 +19,7 @@ N.B. The graph package cannot mix directed and undirected graphs in the same mod
 
 Anything else?
 
-# Potentially Interesting Measures That We Could Correlate With Various Sequence Characteristics #
+## Potentially Interesting Measures That We Could Correlate With Various Sequence Characteristics ##
 
 * The density (actual ties/possible ties) of a repository network
 * Size of network
