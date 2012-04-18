@@ -19,6 +19,17 @@ N.B. The graph package cannot mix directed and undirected graphs in the same mod
 
 Anything else?
 
+# Potentially Interesting Measures That We Could Correlate With Various Sequence Characteristics #
+
+* The density (actual ties/possible ties) of a repository network
+* Size of network
+* Cohesion/Geodesics, i.e. the number of direct paths in the network
+* How many other repositories do the coders contribute to?
+* Dispersion of code contribution
+* Are there cliques in the repository network?
+* Centrality of actors in relation to sequences or sequence aspects
+* Changes in any of these measures over time
+
 ## Resources ##
 
 Here are some resources to get us started:

@@ -8,7 +8,6 @@ setwd("~/github/local/Social-Network-Analysis-in-R")
 library(igraph)
 library(ggplot2)
 
-
 # Source functions and the cleaned datafile
 source("functions.r")
 load("cleaned_data.rdata")
