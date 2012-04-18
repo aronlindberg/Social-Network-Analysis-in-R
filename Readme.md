@@ -2,6 +2,23 @@
 
 The purpose of this repository is to learn how to run SNA in R during the summer of 2012.
 
+# Characteristics of the Network Data at GitHub #
+
+The network data consists of the following edges:
+
+* Coders following other coders
+* Coders watching repositories
+* Repositories being forked off of other repositories
+* Coders connected to repositories through commits, comments etc.
+* Coders connected to coders through committing or commenting on the same repository, branch, or the same file/commit/issue etc.
+* Coders who are on the same team/organization
+
+Hence, there are both directed and undirected graphs, as well as multidimensional since there are both human (coders) and non-human (repositories and their constituent parts) vertices.
+
+N.B. The graph package cannot mix directed and undirected graphs in the same model. Can we work around this within the package or do we need a different package?
+
+Anything else?
+
 ## Resources ##
 
 Here are some resources to get us started:
@@ -10,6 +27,7 @@ Here are some resources to get us started:
 * [RStudio IDE](http://rstudio.org/)
 * [Social Network Analyis Labs - Stanford](http://sna.stanford.edu/rlabs.php)
 * [Brief Introduction to SNA](http://www.orgnet.com/sna.html)
-* [graph package - tutorial](http://igraph.sourceforge.net/igraphbook/)
+* [igraph package - tutorial](http://igraph.sourceforge.net/igraphbook/)
 * [Introduction to Social Network Methods](http://faculty.ucr.edu/~hanneman/networks/nettext.pdf)
 * [An Introduction to Social Network Analysis with R and NetDraw](http://econometricsense.blogspot.com/2012/04/introduction-to-social-network-analysis.html)
+* [Social Network Analysis with sna](http://www.jstatsoft.org/v24/i06/paper)
