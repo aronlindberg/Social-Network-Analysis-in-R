@@ -1,6 +1,6 @@
 # Social Network Analysis in R #
 
-The purpose of this repository is to learn how to run SNA in R
+The purpose of this repository is to learn how to run SNA in R during the summer of 2012.
 
 ## Resources ##
 
