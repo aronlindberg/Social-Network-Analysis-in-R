@@ -1,0 +1,4 @@
+# These files are ignored by GitHub. In the future we need to include sensitive datafiles here
+
+.Rhistory
+.RData
