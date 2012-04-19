@@ -38,7 +38,7 @@ Anything else?
 
 * Maybe we could divide the 10 workshops from the [Stanford SNA in R/SoNIA between ourselves](http://sna.stanford.edu/rlabs.php), and then go through them one by one?
 
-# Videos #
+## Videos ##
 
 * [CARMA webcast on SNA](http://carma.wayne.edu/Stream.asp?peid=667770c8946c4e10934e102c37c3dd941d)
 * [Social Network Analysis -- Finding communities and influencers](http://youtu.be/WERsvhCkHhU)
