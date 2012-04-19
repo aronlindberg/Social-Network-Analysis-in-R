@@ -40,7 +40,8 @@ Anything else?
 
 ## Videos ##
 
-* [CARMA webcast on SNA](http://carma.wayne.edu/Stream.asp?peid=667770c8946c4e10934e102c37c3dd941d)
+* [Issues in Social Network Analysis (CARMA)](http://carma.wayne.edu/Stream.asp?peid=667770c8946c4e10934e102c37c3dd941d)
+* [Simple Models for Analyzing Network Changes](http://carma.wayne.edu/Stream.asp?peid=b4d529f13cf24838b20148c22bf3e72c1d)
 * [Social Network Analysis -- Finding communities and influencers](http://youtu.be/WERsvhCkHhU)
 * [Using Whole Genome Sequencing and Social Network Analysis to Track Disease](http://youtu.be/JrwNjqVD5-8)
 * [Social Network Analysis, Behavioral Research on HIV/AIDS, UCLA](http://youtu.be/CrYx25m8J9g)
