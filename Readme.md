@@ -36,7 +36,7 @@ Anything else?
 
 ## Thoughts on How to Manage the Summer Course ##
 
-* Maybe we could divide the 10 workshops from the [Stanford SNA in R/SoNIA between ourselves](http://sna.stanford.edu/rlabs.php), and then go through them one by one?
+* Maybe we could divide the 10 workshops from the [Stanford SNA in R/SoNIA] between ourselves(http://sna.stanford.edu/rlabs.php), and then go through them one by one?
 
 ## Videos ##
 
