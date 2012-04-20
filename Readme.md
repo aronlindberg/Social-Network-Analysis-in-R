@@ -21,6 +21,9 @@ These are whole networks, not ego networks, meaning that they are not centered o
 
 Anything else?
 
+Strong ties?
+Weak ties?
+
 ## Potentially Interesting Measures That We Could Correlate With Various Sequence Characteristics ##
 
 * The density (actual ties/possible ties) of a repository network
@@ -52,6 +55,7 @@ Anything else?
 
 Here are some resources to get us started:
 
+* [Introduction to social network methods](http://faculty.ucr.edu/~hanneman/nettext/)
 * [The R Podcast](http://www.r-podcast.org/)
 * [RStudio IDE](http://rstudio.org/)
 * [Social Network Analyis Labs - Stanford](http://sna.stanford.edu/rlabs.php)
