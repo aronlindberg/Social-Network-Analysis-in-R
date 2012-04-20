@@ -17,6 +17,8 @@ Hence, there are both directed and undirected graphs, as well as multidimensiona
 
 N.B. The graph package cannot mix directed and undirected graphs in the same model. Can we work around this within the package or do we need a different package?
 
+These are whole networks, not ego networks, meaning that they are not centered on any given individual.
+
 Anything else?
 
 ## Potentially Interesting Measures That We Could Correlate With Various Sequence Characteristics ##
@@ -58,6 +60,7 @@ Here are some resources to get us started:
 * [Introduction to Social Network Methods](http://faculty.ucr.edu/~hanneman/networks/nettext.pdf)
 * [An Introduction to Social Network Analysis with R and NetDraw](http://econometricsense.blogspot.com/2012/04/introduction-to-social-network-analysis.html)
 * [Social Network Analysis with sna](http://www.jstatsoft.org/v24/i06/paper)
+* [The SIENA package for longitudinal network analysis](http://www.stats.ox.ac.uk/~snijders/siena/)
 
 ## References ##
 
