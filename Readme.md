@@ -2,6 +2,11 @@
 
 The purpose of this repository is to learn how to run SNA in R during the summer of 2012.
 
+## Examples
+
+Here's a great example of SNA on GitHub using R:
+http://www.r-chart.com/2012/05/github-follower-graph-with-r.html
+
 ## Characteristics of the Network Data at GitHub ##
 
 The network data consists of the following edges:
