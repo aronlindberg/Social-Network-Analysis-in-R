@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Social-network-analysis-in-r by aronlindberg</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Social-network-analysis-in-r</h1>
+        <p>Social-Network-Analysis-in-R</p>
+        <p class="view"><a href="https://github.com/aronlindberg/Social-Network-Analysis-in-R">View the Project on GitHub <small>aronlindberg/Social-Network-Analysis-in-R</small></a></p>
+        <ul>
+          <li><a href="https://github.com/aronlindberg/Social-Network-Analysis-in-R/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/aronlindberg/Social-Network-Analysis-in-R/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/aronlindberg/Social-Network-Analysis-in-R">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Social Network Analysis in R</h1>
+
+<p>The purpose of this repository is to learn how to run SNA in R during the summer of 2012.</p>
+
+<h2>Examples</h2>
+
+<p>Here's a great example of SNA on GitHub using R:
+<a href="http://www.r-chart.com/2012/05/github-follower-graph-with-r.html">http://www.r-chart.com/2012/05/github-follower-graph-with-r.html</a></p>
+
+<h2>Characteristics of the Network Data at GitHub</h2>
+
+<p>The network data consists of the following edges:</p>
+
+<ul>
+<li>Coders following other coders</li>
+<li>Coders watching repositories</li>
+<li>Repositories being forked off of other repositories</li>
+<li>Coders connected to repositories through commits, comments etc.</li>
+<li>Coders connected to coders through committing or commenting on the same repository, branch, or the same file/commit/issue etc.</li>
+<li>Coders who are on the same team/organization</li>
+</ul><p>Hence, there are both directed and undirected graphs, as well as multidimensional since there are both human (coders) and non-human (repositories and their constituent parts) vertices.</p>
+
+<p>N.B. The graph package cannot mix directed and undirected graphs in the same model. Can we work around this within the package or do we need a different package?</p>
+
+<p>These are whole networks, not ego networks, meaning that they are not centered on any given individual.</p>
+
+<p>Anything else?</p>
+
+<p>Strong ties?
+Weak ties?</p>
+
+<h2>Potentially Interesting Measures That We Could Correlate With Various Sequence Characteristics</h2>
+
+<ul>
+<li>The density (actual ties/possible ties) of a repository network</li>
+<li>Size of network</li>
+<li>Cohesion/Geodesics, i.e. the number of direct paths in the network</li>
+<li>How many other repositories do the coders contribute to?</li>
+<li>Dispersion of code contribution</li>
+<li>Are there cliques in the repository network?</li>
+<li>Centrality of actors in relation to sequences or sequence aspects</li>
+<li>Network centralization (a measure of inequality of contribution in the network as a whole)</li>
+<li>Graph hierarchy (do coders follow each other mutually, or do only certain coders get followed?)</li>
+<li>Least upper boundedness</li>
+<li>Efficiency</li>
+<li>Changes in any of these measures over time</li>
+</ul><h2>Thoughts on How to Manage the Summer Course</h2>
+
+<ul>
+<li>Maybe we could divide the 10 workshops from the <a href="http://sna.stanford.edu/rlabs.php">Stanford SNA in R/SoNIA</a> between ourselves, and then go through them one by one?</li>
+</ul><h2>Videos</h2>
+
+<ul>
+<li><a href="http://carma.wayne.edu/Stream.asp?peid=667770c8946c4e10934e102c37c3dd941d">Issues in Social Network Analysis (CARMA)</a></li>
+<li><a href="http://carma.wayne.edu/Stream.asp?peid=b4d529f13cf24838b20148c22bf3e72c1d">Simple Models for Analyzing Network Changes</a></li>
+<li><a href="https://www.youtube.com/watch?v=mK7qmZ2-wxc">Analyzing Social Networks on Twitter</a></li>
+<li><a href="http://youtu.be/WERsvhCkHhU">Social Network Analysis -- Finding communities and influencers</a></li>
+<li><a href="http://youtu.be/JrwNjqVD5-8">Using Whole Genome Sequencing and Social Network Analysis to Track Disease</a></li>
+<li><a href="http://youtu.be/CrYx25m8J9g">Social Network Analysis, Behavioral Research on HIV/AIDS, UCLA</a></li>
+</ul><h2>Resources</h2>
+
+<p>Here are some resources to get us started:</p>
+
+<ul>
+<li><a href="http://faculty.ucr.edu/%7Ehanneman/nettext/">Introduction to social network methods</a></li>
+<li><a href="http://www.r-podcast.org/">The R Podcast</a></li>
+<li><a href="http://rstudio.org/">RStudio IDE</a></li>
+<li><a href="http://sna.stanford.edu/rlabs.php">Social Network Analyis Labs - Stanford</a></li>
+<li><a href="http://www.orgnet.com/sna.html">Brief Introduction to SNA</a></li>
+<li><a href="http://igraph.sourceforge.net/igraphbook/">igraph package - tutorial</a></li>
+<li><a href="http://faculty.ucr.edu/%7Ehanneman/networks/nettext.pdf">Introduction to Social Network Methods</a></li>
+<li><a href="http://econometricsense.blogspot.com/2012/04/introduction-to-social-network-analysis.html">An Introduction to Social Network Analysis with R and NetDraw</a></li>
+<li><a href="http://www.jstatsoft.org/v24/i06/paper">Social Network Analysis with sna</a></li>
+<li><a href="http://www.stats.ox.ac.uk/%7Esnijders/siena/">The SIENA package for longitudinal network analysis</a></li>
+</ul><h2>References</h2>
+
+<p>Crowston, K., &amp; Howison, J. 2006. Hierarchy and centralization in free and open source software team communications. <strong>Knowledge, Technology &amp; Policy</strong>, 18(4): 65-85.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/aronlindberg">aronlindberg</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
