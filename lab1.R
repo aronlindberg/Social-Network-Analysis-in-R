@@ -1,5 +1,5 @@
 setwd("~/github/local/Social-Network-Analysis-in-R/")
-source("http://sna.stanford.edu/setup.R")
+# source("http://sna.stanford.edu/setup.R")
 
 sink("outfile.txt")
 readLines("http://sna.stanford.edu/setup.R")
