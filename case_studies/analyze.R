@@ -1,6 +1,6 @@
+# Setup
 setwd("~/github/local/Social-Network-Analysis-in-R/case_studies/")
-
-sink("outfile.txt")
-sink()
-
+# turn on the command below to output to a text-file.
+# sink("outfile.txt")
 library(igraph)
+
