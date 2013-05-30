@@ -5,4 +5,6 @@ setwd("~/github/local/Social-Network-Analysis-in-R/data/django_django/")
 library(igraph)
 
 # open data
-read.graph("django_django_2012_05.graphml", format = "graphml")
+test_graph <- read.graph("django_django_2012_05.graphml", format = "graphml")
+social_layout <- layout.fruchterman.reingold(test_graph)
+plot(test_graph, layout=social_layout, edge.arrow.size=.5)
